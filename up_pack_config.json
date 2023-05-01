@@ -1,0 +1,23 @@
+{
+    "zip_file_name": "upJSYY_back",
+    "__zip_file_name":"zip_file_name为压缩包的名称",
+
+    "allow_extension": "cshtml,dll,xml,js,css,xlsx,xls,xlsm",
+    "__allow_extension":"allow_extension用来限定文件的后缀名范围",
+
+    "project_path": "PMS.Web,PMS.Micro,PMS.API\\bin,PMS.API\\Config\\SQL",
+    "__project_path":"project_path用来限定检测文件的路径必须包含以上配置的路径",
+
+    "ignore_path":"\\obj\\,\\roslyn\\,\\zh-Hans\\,\\Scripts\\,\\Content\\,\\Language\\,\\TemplateJs\\,\\WebForm\\",
+    "__ignore_path":"ignore_path用来限定忽略的路径关键字",
+
+    "msbuild_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe",
+    "__msbuild_path":"msbuild_path用来提供msbuild.exe的路径,一般安装VS之后用VS的msbuild编译器即可",
+
+    "sln_folder_path":"e:\\\u5de5\u4f5c\u9879\u76ee\\\u6b27\u5eb7",
+    "__sln_folder_path":"sln_folder_path是项目文件的路径,即当前脚本所在的物理路径,路径中包含中文需要转换成Unicode编码保存",
+
+    "sln_name":"OKWS_PMSSolution.sln",
+    "__sln_name":"sln_name是项目解决方案(.sln)的文件名"
+
+}
